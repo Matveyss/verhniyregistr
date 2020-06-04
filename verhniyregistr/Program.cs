@@ -12,7 +12,8 @@ namespace verhniyregistr
         {
             Console.WriteLine("Введите слово нижнего регистра:");
             string a = Console.ReadLine();
-            a.ToUpper();
+            a = a.ToUpper();
+            Console.WriteLine(a);
             Console.ReadKey();
         }
     }
